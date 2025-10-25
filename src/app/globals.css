@@ -12,4 +12,8 @@
   .span {
     @apply text-[#646669] font-mono transition-colors ease-in-out duration-200;
   }
+
+  .footer-span {
+    @apply text-sm bg-[#646669] rounded px-2 py-1 text-gray-900 font-mono;
+  }
 }

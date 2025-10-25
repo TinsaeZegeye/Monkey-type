@@ -28,7 +28,7 @@ export default function TypeTestArea() {
   };
 
   return (
-    <div className="px-[5%] mt-5">
+    <div className="px-7 mt-2">
       <div className="text-[#e2b714] text-2xl font-mono mb-4">00</div>{" "}
       <div className="flex flex-col items-center justify-center">
         <input
@@ -39,7 +39,7 @@ export default function TypeTestArea() {
           className="opacity-0 absolute -top-[9999px] -left-[9999px]"
         />
 
-        <div className="text-3xl leading-relaxed tracking-wide font-mono rounded-lg px-2 py-4 bg-[#2c2e31] w-full min-h-fit flex flex-wrap items-start">
+        <div className="text-2xl leading-relaxed tracking-wide font-mono rounded-lg px-2 py-4 bg-[#2c2e31] w-full min-h-fit flex flex-wrap items-start">
           {renderTest()}
         </div>
 
