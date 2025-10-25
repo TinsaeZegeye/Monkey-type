@@ -27,7 +27,7 @@ export default function Navbar() {
             <span className="font-mono text-[#646669] -mb-1 text-sm pl-1">
               monkey see
             </span>
-            <p className="text-[#646669] text-4xl font-mono font-bold tracking-tight">
+            <p className="text-gray-400 text-4xl font-mono font-bold tracking-tight">
               monkeytype
             </p>
           </div>
