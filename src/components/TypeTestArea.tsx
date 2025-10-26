@@ -6,7 +6,7 @@ export default function TypeTestArea() {
   const sampleTest: string =
     "too between each also however late man they from hand group help while both any here when at for so during again people just person by one place a be fact little plan man face life well";
 
-  const [userInput, setUserInput] = useState("");
+  const [userInput, setUserInput] = useState<string>("");
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleInputChange = () => {};
